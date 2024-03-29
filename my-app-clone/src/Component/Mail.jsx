@@ -34,6 +34,7 @@ import InboxMsg from './InboxMsg'
 import SentMsg from './SentMsg'
 import Login from './Login'
 import Starred from './Starred'
+import Draft from './Draft'
 // import Storage2 from '../icons/open_in_new_black_24dp.svg'
 
 function Mail({params}){
@@ -48,8 +49,8 @@ function Mail({params}){
         data = <SentMsg />
         break;
 
-        case 'Starred':
-          data = <Starred />
+        case 'Draft':
+          data = <Draft />
           break;
 
         case 'Login':

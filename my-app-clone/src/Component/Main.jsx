@@ -100,7 +100,7 @@ function Main (){
          <Route path='/' element={<Mail params="Login"/>}/> 
          <Route path='/inboxmsg' element={<Mail params="InboxMsg"/>}/> 
          <Route path='/sentmsg' element={<Mail params="SentMsg"/>}/> 
-         <Route path='/starred' element={<Mail params="Starred"/>}/> 
+         <Route path='/draft' element={<Mail params="Draft"/>}/> 
           </Routes>
 
 <FooterBody/>

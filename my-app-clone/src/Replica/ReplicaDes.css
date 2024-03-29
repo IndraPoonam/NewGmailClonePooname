@@ -1,0 +1,15 @@
+.unsubscribe-link {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .unsubscribe-link a {
+    color: #0066cc;
+  }
+  
+  .unsubscribe-link a:hover {
+    text-decoration: underline;
+  }

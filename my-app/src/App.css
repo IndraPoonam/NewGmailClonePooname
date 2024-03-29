@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-container {
+  max-width: 400px;
+  height: 490px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px ;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+/* .logo22{
+  font-size: 6rem;
+  border: 2px solid black;
+} */
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.email22{
+  margin-top: 40px;
+}
+.login-form button {
+  width: 25%;
+  padding: 7px;
+  background-color: blue;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* display: flex; */
+  flex-direction: row-reverse;
 }
 
-.App-link {
-  color: #61dafb;
+.login-form button:hover {
+  background-color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.create-account {
+  color: rgba(0, 89, 255, 0.952);
+  margin-right: 3px;
+  /* border: 1px solid black; */
+}
+.forgot-password {
+  text-align: center;
+  color: rgba(0, 89, 255, 0.952);
+  margin-top: 10px;
+  margin-right: 210px;
+}
+.line1{
+  font-size: 0.8rem;
+}
+.line{
+  color: rgba(0, 89, 255, 0.952);
+  font-size: 1rem;
+}
+.create-account {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-account:hover {
+  color: #000;
+  background-color: rgba(0, 89, 255, 0.952);
+}
+
+.button22{
+  margin-left: 100px;
+  margin-top: 38px;
+}
+
+.container-2{
+  /* border: 2px solid black; */
+  width: 420px;
+  margin-right: 45px;
+  margin-top: -95px;
+  list-style-type: none;
+}
+.list-2{
+  font-size: 1rem;
+  color: solid black;
+  display: flex; 
+   justify-content: space-between;
+   list-style: none;
 }
