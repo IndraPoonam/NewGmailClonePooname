@@ -117,11 +117,11 @@ const SentMsg = () => {
                 <div class="message-default" >
 
                   <div class="message-sender message-content unread" >
-                    <span >{Value.payload.headers.find(item=>item.name == "From").value}</span>
+                    <span >{Value.payload.headers.find(item=>item.name === "From").value}</span>
                   </div>
       
                   <div class="message-subject message-content unread">
-                    <span>{Value.payload.headers.find(item=>item.name == "Subject").value}</span>
+                    <span>{Value.payload.headers.find(item=>item.name === "Subject").value}</span>
                   </div>
 
                   <div class="message-seperator message-content"> - </div>
@@ -133,7 +133,7 @@ const SentMsg = () => {
                   <div class="gap message-content" > &nbsp; </div>
 
                   <div class="message-date center-text unread" > 
-                    <span>{convertToAMPM(Value.payload.headers.find(item=>item.name == "Date").value)}</span>
+                    <span>{convertToAMPM(Value.payload.headers.find(item=>item.name === "Date").value)}</span>
                   </div>
 
                 </div>
