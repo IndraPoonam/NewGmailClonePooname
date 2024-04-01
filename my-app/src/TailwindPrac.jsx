@@ -42,7 +42,7 @@ function TailwindPrac() {
   <div className='flex gap-5 px-1'><ul className='flex gap-10'>
     <li className='text-5xl text-blue-400'><i class="fa-solid fa-circle-user "></i></li>
    <div><span className='font-bold '>Google </span>
-    <li>no-reply@google.accounts.com</li></div> 
+    no-reply@google.accounts.com</div> 
     </ul></div>
 <div></div>
 </div>
